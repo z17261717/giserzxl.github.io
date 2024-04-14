@@ -188,7 +188,7 @@
         });
         view.ui.add(expand2, "top-right");
 
-
+ 	view.ui.add("line-button", "top-left");//添加绘制线按钮，自定义UI
         view.ui.add("area-button", "top-left");//添加绘制面按钮，自定义UI
         view.ui.add("point-button", "top-left");//添加绘制面按钮，自定义UI
         view.ui.add("circle-button", "top-left");//添加绘制面按钮，自定义UI
@@ -476,9 +476,10 @@
     <div id="info" class="esri-widget">海南省1987-2017红树林面积</div>
     <div id="gallery-node" class="esri-widget"></div>
     <div id="viewDiv"></div>
-
     <div id="basemapGalleryDiv"></div>
     <div id="divShowResult"></div>
+    <div id="line-button" class="esri-widget esri-widget--button esri-interactive" title="画线">
+      <span class="esri-icon-polyline"></span>
     <div id="area-button" class="esri-widget esri-widget--button esri-interactive" title="画面">
       <span class="esri-icon-polygon"></span>
     </div>
